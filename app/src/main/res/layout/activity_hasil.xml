@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".HasilActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvResultTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil Pendaftaran"
+            android:textColor="#6D57FC"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imgResult"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Profile" />
+
+        <TextView
+            android:id="@+id/tvFullNameResult"
+            android:text="Nama Lengkap:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvUsernameResult"
+            android:text="\nUsername:"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAgeResult"
+            android:text="\nUmur:"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvEmailResult"
+            android:text="\nEmail:"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvGenderResult"
+            android:text="\nGender:"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+</ScrollView>
